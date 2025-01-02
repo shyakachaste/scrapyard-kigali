@@ -1,0 +1,80 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  padding-left: 0px;
+}
+
+.navbar-logo {
+  flex-grow: 1;
+}
+
+.navbar-logo img {
+  width: 180px;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-logo a {
+  margin-left: 0;
+}
+
+.navbar-logo a:hover img {
+  transform: rotate(20deg);
+}
+
+.navbar-action {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-action .signup-btn {
+  background-color: var(--primary-color);
+  color: #337D78;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.navbar-action .signup-btn:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.1rem;
+    padding-right: 2rem;
+  }
+
+  .navbar-logo img {
+    width: 140px;
+  }
+
+  .navbar-action {
+    justify-content: flex-end;
+  }
+
+  .navbar-action .signup-btn {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar-logo img {
+    width: 150px;
+  }
+
+  .navbar-action .signup-btn {
+    font-size: 1.1rem;
+    padding: 1rem;
+  }
+}
