@@ -1,76 +1,88 @@
 .hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: var(--secondary-color);
-    padding: 2rem;
-    font-family: 'P22 Stanyan Bold';
-  }
-  
-  .hero-content {
-    max-width: 1000px;
-    margin: 0 auto;
-    text-transform: uppercase;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--secondary-color);
+  padding: 2rem;
+  font-family: 'P22 Stanyan Bold';
+  background-image: url('../assets/cutting-mat\ 1.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-content {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.hero-logo {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  margin-top: 2rem;
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: var(--secondary-color);
+  background-image: url('../assets/ripped-paper\ 2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.hero-details {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  color: var(--secondary-color);
+  max-width: 800px;
+  margin: 0 auto;
+  background-image: url('../assets/ripped-paper\ 2.png'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 10px; 
+}
+
+.hero-details p {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
   .hero-logo {
-    width: 100%;
-    height: auto;
+    width: 90%;
+    max-width: 500px;
   }
-  
-  .hero-text {
-    margin-top: 2rem;
-  }
-  
+
   .hero-subtitle {
     font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
-    color: var(--secondary-color);
   }
-  
+
   .hero-details {
-    font-size: 1.3rem;
-    line-height: 1.6;
-    color: var(--secondary-color);
-    max-width: 800px;
-    margin: 0 auto;
+    font-size: 1.1rem;
+    padding: 0 1rem;
   }
-  
-  .hero-details p {
-    margin-bottom: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .hero-logo {
+    width: 80%;
+    max-width: 400px;
   }
-  
-  @media (max-width: 768px) {
-    .hero-logo {
-      width: 90%;
-      max-width: 500px;
-    }
-  
-    .hero-subtitle {
-      font-size: 2rem;
-    }
-  
-    .hero-details {
-      font-size: 1.1rem;
-      padding: 0 1rem;
-    }
+
+  .hero-subtitle {
+    font-size: 1.6rem;
   }
-  
-  @media (max-width: 480px) {
-    .hero-logo {
-      width: 80%;
-      max-width: 400px;
-    }
-  
-    .hero-subtitle {
-      font-size: 1.6rem;
-    }
-  
-    .hero-details {
-      font-size: 1rem;
-      padding: 0 0.5rem;
-    }
+
+  .hero-details {
+    font-size: 1rem;
+    padding: 0 0.5rem;
   }
-  
+}

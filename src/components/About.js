@@ -30,21 +30,23 @@ const About = () => {
       >
         About Scrapyard Kigali
       </motion.h1>
+      
       <motion.p 
         className="about-paragraph"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.5 }}
       >
-        Scrapyard Kigali is a dynamic hub where young creatives come together to transform discarded materials into innovative solutions. It’s a space dedicated to upcycling, problem-solving, and fostering creativity through hands-on experiences.
+        Scrapyard is a global hackathon running in 100+ cities worldwide on March 15, organized by high schoolers with a “scrappy” theme of stupid inventions.
       </motion.p>
+      
       <motion.p 
         className="about-paragraph"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.8 }}
       >
-        Join us in reimagining waste and shaping a sustainable future. Whether you’re an artist, inventor, or just curious, Scrapyard Kigali welcomes you to explore, learn, and build.
+        Scrapyard Kigali is the Kigali edition, where local high schoolers join the global movement to build creative solutions and have fun! Powered by Hack Club, a nonprofit supporting 48,000+ high school makers, it’s all about thinking outside the box and making something awesome!
       </motion.p>
     </section>
   );

@@ -11,7 +11,7 @@ const Navbar = () => {
         </a>
       </div>
       <div className="navbar-action">
-        <a href="/signup" className="signup-btn">
+        <a href="https://lu.ma/vxqvrsh9" className="signup-btn" target="_blank" rel="noreferrer">
           Sign Up
         </a>
       </div>
