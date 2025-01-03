@@ -12,7 +12,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-action">
         <a href="https://lu.ma/vxqvrsh9" className="signup-btn" target="_blank" rel="noreferrer">
-          Sign Up
+          Apply To Join
         </a>
       </div>
     </nav>
