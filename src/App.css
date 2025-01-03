@@ -2,6 +2,6 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
-    background-color: #337D78;
+    background-color: var(--primary-color);
   }
   

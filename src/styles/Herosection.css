@@ -5,11 +5,13 @@
     text-align: center;
     color: var(--secondary-color);
     padding: 2rem;
+    font-family: 'P22 Stanyan Bold';
   }
   
   .hero-content {
     max-width: 1000px;
     margin: 0 auto;
+    text-transform: uppercase;
   }
   
   .hero-logo {

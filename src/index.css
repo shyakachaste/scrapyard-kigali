@@ -1,4 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Galindo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
-    --primary-color: #F3D24F;
-    --secondary-color: #1f2d3d;
+    --primary-color: #337D78;
+    --red-color: #F1A3BA;
+    --blue-color:#91CCF4;
+    --yellow-color:#F3D24F;
+    --secondary-color:#242E3F;
+    --primary-font:"Galindo", serif;
+  }
+
+  @font-face {
+    font-family: 'Moonblossom';
+    src: url('/public/fonts/Moonblossom') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'P22 Stanyan';
+    src: url('/public//fonts//P22\ Stanyan') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'P22 Stanyan Bold';
+    src: url('/public//fonts//P22\ Stanyan\ Bold') format('opentype');
+    font-weight: bold;
+    font-style: normal;
   }

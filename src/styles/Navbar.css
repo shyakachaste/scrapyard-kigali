@@ -2,22 +2,24 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
-  padding-left: 0px;
+  padding: 1rem 2rem;
+  font-family: 'P22 Stanyan Bold';
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .navbar-logo {
-  flex-grow: 1;
+  margin-right: auto;
 }
 
 .navbar-logo img {
-  width: 180px;
+  width: 120px;
   height: auto;
   transition: transform 0.3s ease-in-out;
 }
 
 .navbar-logo a {
-  margin-left: 0;
+  display: inline-block;
 }
 
 .navbar-logo a:hover img {
@@ -30,51 +32,65 @@
 }
 
 .navbar-action .signup-btn {
-  background-color: var(--primary-color);
-  color: #337D78;
-  padding: 1rem 2rem;
+  background-color: var(--yellow-color);
+  color: var(--primary-color);
+  padding: 0.8rem 1.5rem;
   border-radius: 10px;
   text-decoration: none;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
   transition: background-color 0.3s ease, transform 0.2s ease;
+  text-transform: uppercase;
 }
 
 .navbar-action .signup-btn:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
   .navbar {
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    padding-top: 2.1rem;
-    padding-right: 2rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-logo img {
+    width: 100px;
+  }
+
+  .navbar-action .signup-btn {
+    font-size: 0.9rem;
+    padding: 0.6rem 1rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .navbar {
+    padding: 1rem 2rem;
   }
 
   .navbar-logo img {
     width: 140px;
   }
 
-  .navbar-action {
-    justify-content: flex-end;
-  }
-
   .navbar-action .signup-btn {
     font-size: 1rem;
-    padding: 0.8rem 1.5rem;
+    padding: 0.7rem 1.5rem;
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 1024px) {
+  .navbar {
+    padding: 1.5rem 3rem;
+  }
+
   .navbar-logo img {
-    width: 150px;
+    width: 160px;
   }
 
   .navbar-action .signup-btn {
     font-size: 1.1rem;
-    padding: 1rem;
+    padding: 1rem 2rem;
   }
 }
