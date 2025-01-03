@@ -4,6 +4,8 @@ import './App.css';
 import Herosection from './components/Herosection';
 import About from './components/About';
 import TeamSection from './components/TeamSection';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Herosection />
       <About />
       <TeamSection />
+      <FAQ />
+      <Footer />
     </div>
   );
 }

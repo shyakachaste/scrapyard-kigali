@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 1rem;
+    font-family: 'Moonblossom';
+  }
+  
+  .github-link {
+    color: var(--blue-color);
+    text-decoration: none;
+  }
+  
+  .github-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 1024px) {
+    .footer {
+      font-size: 0.95rem;
+      padding: 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 0.85rem;
+      padding: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      font-size: 0.8rem;
+      padding: 14px;
+    }
+  }
+  

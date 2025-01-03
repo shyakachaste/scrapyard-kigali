@@ -36,10 +36,11 @@
   margin: 20px 0;
   color: var(--yellow-color);
   transition: font-size 0.3s ease;
+  font-family: 'Moonblossom';
 }
 
 .about-paragraph {
-  font-size: 1rem;
+  font-size: 1.2rem;
   max-width: 800px;
   margin: 20px auto;
   line-height: 1.6;
@@ -48,6 +49,7 @@
   transition: font-size 0.3s ease;
   position: relative;
   z-index: 1;
+  font-family: 'P22 Stanyan Bold';
 }
 
 @media (max-width: 1024px) {
