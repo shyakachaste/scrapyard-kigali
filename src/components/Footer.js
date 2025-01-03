@@ -5,7 +5,8 @@ const Footer = () => {
   return (
     <footer className="footer">
       <p>
-        Developed by Shyaka Chaste 😊 |{' '}
+      Developed by <a href="https://hackclub.com/" target="_blank"
+          rel="noopener noreferrer" className="github-link"> Hack Club</a> with contributions from ♡ {' '}
         <a
           href="https://github.com/shyakachaste"
           target="_blank"
