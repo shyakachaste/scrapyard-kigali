@@ -3,7 +3,6 @@ import { FaLinkedin } from 'react-icons/fa';
 import '../styles/TeamSection.css';
 import image1 from '../assets/team/aiman.jpg';
 import image2 from '../assets/team/chaste.jpg';
-import image3 from '../assets/team/bruno.jpeg';
 import image4 from '../assets/team/yvan.jpg';
 import image5 from '../assets/team/sano.jpg';
 import image6 from '../assets/team/cadet.jpg';
@@ -21,12 +20,6 @@ const teamMembers = [
     role: 'Event Organizer',
     linkedin: 'https://www.linkedin.com/in/shyakachaste/',
     img: image2,
-  },
-  {
-    name: 'Bruno Blaise',
-    role: 'Event Organizer',
-    linkedin: 'https://www.linkedin.com/in/brunoblaise',
-    img: image3,
   },
 
   {
