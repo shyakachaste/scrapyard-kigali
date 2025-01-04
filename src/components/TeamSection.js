@@ -1,8 +1,12 @@
 import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import '../styles/TeamSection.css';
-import image1 from '../assets/aiman.jpg';
-import image2 from '../assets/chaste.jpg';
+import image1 from '../assets/team/aiman.jpg';
+import image2 from '../assets/team/chaste.jpg';
+import image3 from '../assets/team/bruno.jpeg';
+import image4 from '../assets/team/yvan.jpg';
+import image5 from '../assets/team/sano.jpg';
+import image6 from '../assets/team/cadet.jpg';
 
 
 const teamMembers = [
@@ -17,6 +21,31 @@ const teamMembers = [
     role: 'Event Organizer',
     linkedin: 'https://www.linkedin.com/in/shyakachaste/',
     img: image2,
+  },
+  {
+    name: 'Bruno Blaise',
+    role: 'Event Organizer',
+    linkedin: 'https://www.linkedin.com/in/brunoblaise',
+    img: image3,
+  },
+
+  {
+    name: 'Rukundo Yvan',
+    role: 'Techinical Support',
+    linkedin: 'https://www.linkedin.com/in/rukundo-yvan-4b98ab276/',
+    img: image4,
+  },
+  {
+    name: 'SANO Prince',
+    role: 'Technical Support',
+    linkedin: 'https://www.linkedin.com/in/sano-prince-bb494a19a/',
+    img: image5,
+  },
+  {
+    name: 'Ishimwe Cadet',
+    role: 'Marketing Manager',
+    linkedin: 'https://www.linkedin.com/in/ishimwe-cadet-b8ab58321/',
+    img: image6,
   },
 
 ];

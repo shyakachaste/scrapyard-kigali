@@ -22,7 +22,7 @@ const FAQ = () => {
     {
       question: "What do I need?",
       answer:
-        "Scrapyard is open to high school students around the world who are passionate about making and hacking."
+        "Your laptop, chargers and an open mind! If you plan to work on a hardware project, bring the tools you'll need."
     },
     {
       question: "I’m not good at coding. Can I still participate?",
