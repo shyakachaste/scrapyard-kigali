@@ -6,6 +6,7 @@ import About from './components/About';
 import TeamSection from './components/TeamSection';
 import FAQ from './components/FAQ';
 import Footer from './components/Footer';
+import ScrapyardSchedule from './components/ScrapyardSchedule';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Herosection />
       <About />
+      <ScrapyardSchedule />
       <TeamSection />
       <FAQ />
       <Footer />

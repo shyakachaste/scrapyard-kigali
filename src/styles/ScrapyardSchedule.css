@@ -1,0 +1,75 @@
+.schedule-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Moonblossom';
+}
+
+.schedule-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 10px;
+  background-image: url('../assets/ripped-paper\ 2.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.schedule-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.schedule-item {
+  background-image: url('../assets/ripped-paper\ 1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--secondary-color);
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.schedule-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.time {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.activity {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .schedule-title {
+    font-size: 2rem;
+  }
+
+
+  .schedule-item {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .schedule-title {
+    font-size: 1.3rem;
+  }
+
+
+  .time {
+    font-size: 1rem;
+  }
+
+  .activity {
+    font-size: 0,8rem;
+  }
+}

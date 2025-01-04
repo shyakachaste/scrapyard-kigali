@@ -8,11 +8,10 @@
   }
   
   .team-heading {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: var(--secondary-color);
     margin-bottom: 40px;
-    text-transform: uppercase;
     letter-spacing: 2px;
   }
   
@@ -24,7 +23,7 @@
   }
   
   .team-member {
-    background-color: #fff;
+    background-color: #f9f9f9;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     width: 250px;

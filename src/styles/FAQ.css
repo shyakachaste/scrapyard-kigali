@@ -9,15 +9,11 @@
     background-color: #f9f9f9;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-image: url('../assets/faqbg.png'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     font-family: 'P22 Stanyan Bold';
   }
   
   .faq-title {
-    font-size: 28px;
+    font-size: 2rem;
     margin-bottom: 30px;
     position: relative;
     display: inline-block;
