@@ -38,8 +38,8 @@ Powered by [Hack Club](https://hackclub.com), a nonprofit supporting over 48,000
 ## **What is Scrapyard Kigali?**
 
 Scrapyard is a global hackathon running in 100+ cities worldwide on March 15, organized by high schoolers with a “scrappy” theme of stupid inventions.
+<p>Scrapyard Kigali is the Kigali edition, where local high schoolers join the global movement to build creative solutions and have fun! Powered by Hack Club, a nonprofit supporting over 48,000+ high school makers, it's all about thinking outside the box and making something awesome!</p>
 
-Scrapyard Kigali is the Kigali edition, where local high schoolers join the global movement to build creative solutions and have fun! Powered by Hack Club, a nonprofit supporting 48,000+ high school makers, it’s all about thinking outside the box and making something awesome!
 ---
 
 ## **Why Join?**
