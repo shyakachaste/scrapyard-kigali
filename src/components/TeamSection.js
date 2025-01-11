@@ -2,7 +2,6 @@ import React from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import '../styles/TeamSection.css';
 import image1 from '../assets/team/aiman.jpg';
-import image2 from '../assets/team/chaste.jpg';
 import image4 from '../assets/team/yvan.jpg';
 import image5 from '../assets/team/sano.jpg';
 import image6 from '../assets/team/cadet.jpg';
