@@ -15,12 +15,6 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/aiman-sady-7838b8326/',
     img: image1,
   },
-  {
-    name: 'Shyaka Chaste',
-    role: 'Event Organizer',
-    linkedin: 'https://www.linkedin.com/in/shyakachaste/',
-    img: image2,
-  },
 
   {
     name: 'Rukundo Yvan',
